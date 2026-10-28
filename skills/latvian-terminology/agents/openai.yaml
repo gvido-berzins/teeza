@@ -1,0 +1,5 @@
+interface:
+  display_name: "Latvian Terminology"
+  short_description: "Offline sourced English–Latvian terminology"
+  default_prompt: "Use $latvian-terminology to translate and verify the technical terms in this text."
+

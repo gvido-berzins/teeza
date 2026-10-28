@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.termlv/
+data/termlv.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+

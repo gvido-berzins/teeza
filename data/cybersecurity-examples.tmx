@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4">
+  <header creationtool="termlv" creationtoolversion="0.1" segtype="sentence" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu tuid="cyber-1"><tuv xml:lang="en"><seg>Penetration testing identified a privilege-escalation vulnerability in the API.</seg></tuv><tuv xml:lang="lv"><seg>Ielaušanās testēšanā tika atklāta API ievainojamība, kas ļauj paaugstināt privilēģijas.</seg></tuv></tu>
+    <tu tuid="cyber-2"><tuv xml:lang="en"><seg>Exploitation required authentication but not administrative authorization.</seg></tuv><tuv xml:lang="lv"><seg>Lai ievainojamību izmantotu, bija jāautentificējas, taču administratora autorizācija nebija nepieciešama.</seg></tuv></tu>
+    <tu tuid="cyber-3"><tuv xml:lang="en"><seg>Enforce authorization on every object access and apply the principle of least privilege.</seg></tuv><tuv xml:lang="lv"><seg>Veiciet autorizācijas pārbaudi ikreiz, kad notiek piekļuve objektam, un ievērojiet mazāko privilēģiju principu.</seg></tuv></tu>
+    <tu tuid="cyber-4"><tuv xml:lang="en"><seg>Rotate exposed credentials and add rate limiting.</seg></tuv><tuv xml:lang="lv"><seg>Nomainiet atklātos piekļuves datus un ierobežojiet pieprasījumu biežumu.</seg></tuv></tu>
+    <tu tuid="cyber-5"><tuv xml:lang="en"><seg>Retest the remediation before deployment.</seg></tuv><tuv xml:lang="lv"><seg>Pirms izmaiņu izvietošanas atkārtoti pārbaudiet, vai ievainojamība ir novērsta.</seg></tuv></tu>
+    <tu tuid="cyber-6"><tuv xml:lang="en"><seg>The attacker moved laterally after compromising a service account.</seg></tuv><tuv xml:lang="lv"><seg>Pēc pakalpojuma konta kompromitēšanas uzbrucējs pārvietojās uz citām tīkla sistēmām.</seg></tuv></tu>
+    <tu tuid="cyber-7"><tuv xml:lang="en"><seg>Network segmentation reduces the impact of lateral movement.</seg></tuv><tuv xml:lang="lv"><seg>Tīkla segmentēšana mazina uzbrucēja pārvietošanās ietekmi tīklā.</seg></tuv></tu>
+    <tu tuid="cyber-8"><tuv xml:lang="en"><seg>The endpoint returned sensitive data without verifying object-level authorization.</seg></tuv><tuv xml:lang="lv"><seg>Galapunkts atgrieza sensitīvus datus, nepārbaudot autorizāciju objekta līmenī.</seg></tuv></tu>
+    <tu tuid="cyber-9"><tuv xml:lang="en"><seg>Enable multi-factor authentication for privileged accounts.</seg></tuv><tuv xml:lang="lv"><seg>Priviliģētiem kontiem iespējojiet daudzfaktoru autentifikāciju.</seg></tuv></tu>
+    <tu tuid="cyber-10"><tuv xml:lang="en"><seg>The finding was verified after the patch was deployed.</seg></tuv><tuv xml:lang="lv"><seg>Pēc labojuma izvietošanas tika pārbaudīts, ka konstatētā ievainojamība ir novērsta.</seg></tuv></tu>
+  </body>
+</tmx>

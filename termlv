@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+TERMLV_ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+: "${TERMLV_DB:=$TERMLV_ROOT/data/termlv.sqlite3}"
+export TERMLV_DB
+PYTHONPATH="$TERMLV_ROOT/src${PYTHONPATH:+:$PYTHONPATH}"
+export PYTHONPATH
+exec python3 -m termlv "$@"
